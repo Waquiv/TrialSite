@@ -1,0 +1,72 @@
+@import url("../root.css");
+
+.gallery-hero {
+  width: 100%;
+  height: 35vh;
+  /* background-color: rgb(3, 51, 141); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../assets/principal's-desk.png");
+  background-size: 100% 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.gallery-hero > h1 {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-weight: 700;
+  font-size: 54px;
+}
+
+.gallery-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  padding: 1rem;
+}
+
+.grid-item {
+  text-align: center;
+  aspect-ratio: 1 / 1; /* This ensures a 1:1 aspect ratio (width = height) */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.grid-item > div {
+  border-radius: 10px 10px 0 0;
+  background-image: url("../../assets/teacher.png");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.grid-item > h2 {
+  padding: 0 0.5rem;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  .gallery-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* For smaller screens, use 2 columns */
+@media (max-width: 767px) {
+  .gallery-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* For even smaller screens, use 1 column */
+@media (max-width: 480px) {
+  .gallery-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

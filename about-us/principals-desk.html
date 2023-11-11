@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/42823ee8f4.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../styles/about-us/principlas-desk.css" />
+    <link rel="stylesheet" href="../styles/layout/navbar.css" />
+    <link rel="stylesheet" href="../styles/layout/footer.css" />
+  </head>
+  <body>
+    <nav>
+      <div id="mySidenav" class="sidenav">
+        <a class="closebtn a" onclick="closeNav()">&times;</a>
+        <div class="dropdown" onclick="toggleDropdown(1)">
+          <a class="a">About Us &#9662;</a>
+          <div class="dropdown-content" id="dropdown-1">
+            <a href="./principals-desk.html">Principal's Desk</a>
+            <a href="./trust-board.html">Trust Board</a>
+            <a href="../index.html">Achievements</a>
+            <a href="./affiliations.html">Affiliations</a>
+          </div>
+        </div>
+        <div class="dropdown" onclick="toggleDropdown(2)">
+          <a class="a">Academics &#9662;</a>
+          <div class="dropdown-content" id="dropdown-2">
+            <a href="../academics/syllabus.html">Syllabus</a>
+            <a href="../academics/teaching-staff.html">Teaching Staff</a>
+          </div>
+        </div>
+        <a href="../index.html">News and Events</a>
+        <a href="../index.html">Gallery</a>
+        <a href="../mpd.html">MPD (Mandatory Public Database)</a>
+        <a href="../index.html">Admissions</a>
+        <a class="a small-link">+91 8525 852 987</a>
+        <a class="a small-link">mujjadidalsefani@gmail.com</a>
+      </div>
+
+      <div class="navbar" id="navbar">
+        <div class="logo-container-nav">
+          <a href="../index.html">
+            <img src="../assets/alfesani-school-logo-white.png" alt="" />
+          </a>
+        </div>
+        <div class="navbar-links">
+          <a>+91 8525 852 987</a>
+          <a>Email: mujjadidalsefani@gmail.com</a>
+        </div>
+        <span
+          style="font-size: 30px; cursor: pointer; width: 10%; color: white"
+          ,
+          onclick="openNav()"
+          >&#9776;</span
+        >
+      </div>
+    </nav>
+
+    <div class="hero">
+      <h1>Principal's Desk</h1>
+    </div>
+
+    <div class="gallery-container">
+      <div class="grid-item" onclick="gridAction(1)">
+        <div></div>
+        <h2>Heidi Makinen</h2>
+        <h2>+91 1231 456 654</h2>
+        <h2>heidi.makinen@thelounge.fi</h2>
+      </div>
+      <div class="grid-item" onclick="gridAction(2)">
+        <div></div>
+        <h2>Heidi Makinen</h2>
+        <h2>+91 1231 456 654</h2>
+        <h2>heidi.makinen@thelounge.fi</h2>
+      </div>
+      <div class="grid-item" onclick="gridAction(3)">
+        <div></div>
+        <h2>Heidi Makinen</h2>
+        <h2>+91 1231 456 654</h2>
+        <h2>heidi.makinen@thelounge.fi</h2>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="temp">
+        <div class="main-img-container"></div>
+        <div class="main-info-container">
+          <p class="yellow-text">From Our Principle</p>
+          <h2>Heidi Makinen</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            dignissimos labore corrupti animi facere. Facilis ipsum quis
+            consequuntur officia animi, molestias nulla quam exercitationem
+            assumenda. Debitis ut nulla deserunt voluptatem laudantium officiis
+            unde pariatur! Eos saepe, sint quibusdam tempora nemo fugiat magni
+            deleniti numquam veniam at sapiente officiis necessitatibus dolor.
+            assumenda. Debitis ut nulla deserunt voluptatem laudantium officiis
+            unde pariatur! Eos saepe, sint quibusdam tempora nemo fugiat magni
+            deleniti numquam veniam at sapiente officiis necessitatibus dolor.
+            assumenda. Debitis ut nulla deserunt voluptatem laudantium officiis
+            unde pariatur! Eos saepe, sint quibusdam tempora nemo fugiat magni
+            deleniti numquam veniam at sapiente officiis necessitatibus dolor.
+          </p>
+          <h6>With warm regards,</h6>
+          <h3>Safia Maqsud Multani</h3>
+          <h4>Principal,</h4>
+          <h5>M.A Girl's English School</h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-container">
+      <div class="accordion-grid-item accordion">
+        <div class="accordion-img-container">
+          <img src="../assets/teacher.png" alt="" />
+        </div>
+        <div class="accordion-text-container">
+          <h2>Heidi Makinen</h2>
+          <h4>+91 1231 456 654</h4>
+          <h4>heidi.makinen@thelounge.fi</h4>
+        </div>
+      </div>
+      <div class="panel">
+        <div class="accordion-main">
+          <div class="temp">
+            <div class="main-img-container"></div>
+            <div class="main-info-container">
+              <p class="yellow-text">From Our Principle</p>
+              <h2>Heidi Makinen</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quisquam dignissimos labore corrupti animi facere. Facilis ipsum
+                quis consequuntur officia animi, molestias nulla quam
+                exercitationem assumenda. Debitis ut nulla deserunt voluptatem
+                laudantium officiis unde pariatur! Eos saepe, sint quibusdam
+                tempora nemo fugiat magni deleniti numquam veniam at sapiente
+                officiis necessitatibus dolor. assumenda. Debitis ut nulla
+                deserunt voluptatem laudantium officiis unde pariatur! Eos
+                saepe, sint quibusdam tempora nemo fugiat magni deleniti numquam
+                veniam at sapiente officiis necessitatibus dolor. assumenda.
+                Debitis ut nulla deserunt voluptatem laudantium officiis unde
+                pariatur! Eos saepe, sint quibusdam tempora nemo fugiat magni
+                deleniti numquam veniam at sapiente officiis necessitatibus
+                dolor.
+              </p>
+              <h6>With warm regards,</h6>
+              <h3>Safia Maqsud Multani</h3>
+              <h4>Principal,</h4>
+              <h5>M.A Girl's English School</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-grid-item accordion">
+        <div class="accordion-img-container">
+          <img src="../assets/teacher.png" alt="" />
+        </div>
+        <div class="accordion-text-container">
+          <h2>Heidi Makinen</h2>
+          <h4>+91 1231 456 654</h4>
+          <h4>heidi.makinen@thelounge.fi</h4>
+        </div>
+      </div>
+      <div class="panel">
+        <div class="accordion-main">
+          <div class="temp">
+            <div class="main-img-container"></div>
+            <div class="main-info-container">
+              <p class="yellow-text">From Our Principle</p>
+              <h2>Heidi Makinen</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quisquam dignissimos labore corrupti animi facere. Facilis ipsum
+                quis consequuntur officia animi, molestias nulla quam
+                exercitationem assumenda. Debitis ut nulla deserunt voluptatem
+                laudantium officiis unde pariatur! Eos saepe, sint quibusdam
+                laudantium officiis unde pariatur! Eos saepe, sint quibusdam
+                tempora nemo fugiat magni deleniti numquam veniam at sapiente
+                officiis necessitatibus dolor. assumenda. Debitis ut nulla
+                deserunt voluptatem laudantium officiis unde pariatur! Eos
+                laudantium officiis unde pariatur! Eos saepe, sint quibusdam
+                tempora nemo fugiat magni deleniti numquam veniam at sapiente
+                officiis necessitatibus dolor. assumenda. Debitis ut nulla
+                deserunt voluptatem laudantium officiis unde pariatur! Eos
+                laudantium officiis unde pariatur! Eos saepe, sint quibusdam
+                tempora nemo fugiat magni deleniti numquam veniam at sapiente
+                officiis necessitatibus dolor. assumenda. Debitis ut nulla
+                deserunt voluptatem laudantium officiis unde pariatur! Eos
+                saepe, sint quibusdam tempora nemo fugiat magni deleniti numquam
+                veniam at sapiente officiis necessitatibus dolor. assumenda.
+                Debitis ut nulla deserunt voluptatem laudantium officiis unde
+                pariatur! Eos saepe, sint quibusdam tempora nemo fugiat magni
+                deleniti numquam veniam at sapiente officiis necessitatibus
+                dolor.
+              </p>
+              <h6>With warm regards,</h6>
+              <h3>Safia Maqsud Multani</h3>
+              <h4>Principal,</h4>
+              <h5>M.A Girl's English School</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-grid-item accordion">
+        <div class="accordion-img-container">
+          <img src="../assets/teacher.png" alt="" />
+        </div>
+        <div class="accordion-text-container">
+          <h2>Heidi Makinen</h2>
+          <h4>+91 1231 456 654</h4>
+          <h4>heidi.makinen@thelounge.fi</h4>
+        </div>
+      </div>
+      <div class="panel">
+        <div class="accordion-main">
+          <div class="temp">
+            <div class="main-img-container"></div>
+            <div class="main-info-container">
+              <p class="yellow-text">From Our Principle</p>
+              <h2>Heidi Makinen</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quisquam dignissimos labore corrupti animi facere. Facilis ipsum
+                quis consequuntur officia animi, molestias nulla quam
+                exercitationem assumenda. Debitis ut nulla deserunt voluptatem
+                laudantium officiis unde pariatur! Eos saepe, sint quibusdam
+                tempora nemo fugiat magni deleniti numquam veniam at sapiente
+                officiis necessitatibus dolor. assumenda. Debitis ut nulla
+                deserunt voluptatem laudantium officiis unde pariatur! Eos
+                saepe, sint quibusdam tempora nemo fugiat magni deleniti numquam
+                veniam at sapiente officiis necessitatibus dolor. assumenda.
+                Debitis ut nulla deserunt voluptatem laudantium officiis unde
+                pariatur! Eos saepe, sint quibusdam tempora nemo fugiat magni
+                deleniti numquam veniam at sapiente officiis necessitatibus
+                dolor.
+              </p>
+              <h6>With warm regards,</h6>
+              <h3>Safia Maqsud Multani</h3>
+              <h4>Principal,</h4>
+              <h5>M.A Girl's English School</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-container">
+      <div class="footer-left-container">
+        <div class="logo-container">
+          <div class="img-container">
+            <img src="../assets/alfesani-school-logo-white.png" alt="" />
+          </div>
+          <h1>Mujaddid Alsefani School</h1>
+        </div>
+        <h3>Follow Us:</h3>
+        <div class="social-links-container">
+          <i class="fa-brands fa-facebook-f fa-xl social-icon"></i>
+          <i class="fa-brands fa-instagram fa-xl social-icon"></i>
+          <i class="fa-brands fa-x-twitter fa-xl social-icon"></i>
+          <i class="fa-brands fa-youtube fa-xl social-icon"></i>
+        </div>
+      </div>
+      <div class="footer-right-container">
+        <div>
+          <h2>Contact Us</h2>
+          <h2>Subscribe to our newsletter</h2>
+          <h2>Office and staff</h2>
+          <h2>Employment at Mujaddid Alsefani School</h2>
+          <br /><br />
+          <h4>T.P. 23 PLOT No. 69</h4>
+          <h4>Rander, Gorat (Couse Way Road) Road,</h4>
+          <h4>Adajan Patiya, Surat.</h4>
+          <h4>395009</h4>
+          <br />
+          <h3>c 2023 Mujaddid Alsefani School</h3>
+        </div>
+      </div>
+    </div>
+    <script src="../scripts/navbar.js"></script>
+    <script src="../scripts/principals.js"></script>
+  </body>
+</html>
