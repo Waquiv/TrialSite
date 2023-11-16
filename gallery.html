@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/42823ee8f4.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./styles/gallery.css" />
+    <link rel="stylesheet" href="./styles/layout/navbar.css" />
+    <link rel="stylesheet" href="./styles/layout/footer.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav>
+      <div id="mySidenav" class="sidenav">
+        <a class="closebtn a" onclick="closeNav()">&times;</a>
+        <div class="dropdown" onclick="toggleDropdown(1)">
+          <a class="a">About Us &#9662;</a>
+          <div class="dropdown-content" id="dropdown-1">
+            <a href="./about-us/principals-desk.html">Principal's Desk</a>
+            <a href="./about-us/trust-board.html">Trust Board</a>
+            <a href="./about-us/achievements.html">Achievements</a>
+            <a href="./about-us/affiliations.html">Affiliations</a>
+          </div>
+        </div>
+        <div class="dropdown" onclick="toggleDropdown(2)">
+          <a class="a">Academics &#9662;</a>
+          <div class="dropdown-content" id="dropdown-2">
+            <a href="./academics/syllabus.html">Syllabus</a>
+            <a href="./academics/teaching-staff.html">Teaching Staff</a>
+          </div>
+        </div>
+        <a href="./news.html">News and Events</a>
+        <a href="./gallery.html">Gallery</a>
+        <a href="./mpd.html">MPD (Mandatory Public Database)</a>
+        <a href="./admission.html">Admissions</a>
+        <a class="a small-link">+91 8525 852 987</a>
+        <a class="a small-link">mujjadidalsefani@gmail.com</a>
+      </div>
+
+      <div class="navbar" id="navbar">
+        <div class="logo-container-nav">
+          <a href="./index.html">
+            <img src="./assets/alfesani-school-logo-white.png" alt="" />
+          </a>
+        </div>
+        <div class="navbar-links">
+          <a>+91 8525 852 987</a>
+          <a>Email: mujjadidalsefani@gmail.com</a>
+        </div>
+        <span
+          style="font-size: 30px; cursor: pointer; width: 10%; color: white"
+          ,
+          onclick="openNav()"
+          >&#9776;</span
+        >
+      </div>
+    </nav>
+
+    <div class="gallery-hero">
+      <h1>Gallery</h1>
+    </div>
+
+    <div class="gallery-container">
+      <div
+        class="grid-item"
+        style="background-image: url('./assets/gallery-1.png')"
+      >
+        <h4>21st June, 2023</h4>
+        <h5>International Yoga Day</h5>
+      </div>
+      <div
+        class="grid-item"
+        style="background-image: url('./assets/gallery-2.png')"
+      >
+        <h4>21st June, 2023</h4>
+        <h5>International Yoga Day</h5>
+      </div>
+      <div
+        class="grid-item"
+        style="background-image: url('./assets/gallery-3.png')"
+      >
+        <h4>21st June, 2023</h4>
+        <h5>International Yoga Day</h5>
+      </div>
+      <div
+        class="grid-item"
+        style="background-image: url('./assets/gallery-4.png')"
+      >
+        <h4>21st June, 2023</h4>
+        <h5>International Yoga Day</h5>
+      </div>
+      <div
+        class="grid-item"
+        style="background-image: url('./assets/gallery-5.png')"
+      >
+        <h4>21st June, 2023</h4>
+        <h5>International Yoga Day</h5>
+      </div>
+      <div
+        class="grid-item"
+        style="background-image: url('./assets/gallery-6.png')"
+      >
+        <h4>21st June, 2023</h4>
+        <h5>International Yoga Day</h5>
+      </div>
+      <div
+        class="grid-item"
+        style="background-image: url('./assets/gallery-7.png')"
+      >
+        <h4>21st June, 2023</h4>
+        <h5>International Yoga Day</h5>
+      </div>
+      <div
+        class="grid-item"
+        style="background-image: url('./assets/gallery-8.png')"
+      >
+        <h4>21st June, 2023</h4>
+        <h5>International Yoga Day</h5>
+      </div>
+      <div
+        class="grid-item"
+        style="background-image: url('./assets/gallery-9.png')"
+      >
+        <h4>21st June, 2023</h4>
+        <h5>International Yoga Day</h5>
+      </div>
+    </div>
+
+    <div class="footer-container">
+      <div class="footer-left-container">
+        <div class="logo-container">
+          <div class="img-container">
+            <img src="../assets/alfesani-school-logo-white.png" alt="" />
+          </div>
+          <h1>Mujaddid Alsefani School</h1>
+        </div>
+        <h3>Follow Us:</h3>
+        <div class="social-links-container">
+          <i class="fa-brands fa-facebook-f fa-xl social-icon"></i>
+          <i class="fa-brands fa-instagram fa-xl social-icon"></i>
+          <i class="fa-brands fa-x-twitter fa-xl social-icon"></i>
+          <i class="fa-brands fa-youtube fa-xl social-icon"></i>
+        </div>
+      </div>
+      <div class="footer-right-container">
+        <div>
+          <h2>Contact Us</h2>
+          <h2>Subscribe to our newsletter</h2>
+          <h2>Office and staff</h2>
+          <h2>Employment at Mujaddid Alsefani School</h2>
+          <br /><br />
+          <h4>T.P. 23 PLOT No. 69</h4>
+          <h4>Rander, Gorat (Couse Way Road) Road,</h4>
+          <h4>Adajan Patiya, Surat.</h4>
+          <h4>395009</h4>
+          <br />
+          <h3>c 2023 Mujaddid Alsefani School</h3>
+        </div>
+      </div>
+    </div>
+
+    <script src="./scripts/navbar.js"></script>
+  </body>
+</html>

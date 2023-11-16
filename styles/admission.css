@@ -1,0 +1,70 @@
+@import url("./root.css");
+.gallery-hero {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../assets/syllabus.png");
+  background-size: 100% 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.gallery-hero > h1 {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+.admission-container {
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+}
+.admission-container-left {
+  width: 40%;
+  border: 1px solid black;
+  padding: 2rem;
+  border-radius: 10px 0 0 10px;
+  border-right: none;
+}
+.admission-container-right {
+  border-radius: 0px 10px 10px 0px;
+  border: 1px solid black;
+  padding: 1rem;
+  width: 60%;
+  background-image: url("../assets/student.png");
+  background-size: cover;
+  border-left: none;
+}
+.yellow {
+  color: var(--primary-yellow);
+  font-size: 16px;
+  font-weight: 700;
+}
+.admission-container-left > h2 {
+  font-weight: 700;
+  font-size: 24px;
+}
+.admission-container-left > h4 {
+  font-weight: 700;
+  font-size: 20px;
+}
+.admission-container-left > h5 {
+  font-weight: 500;
+  font-size: 18px;
+}
+.admission-container-left > button {
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .admission-container-right {
+    display: none;
+  }
+  .admission-container-left {
+    width: 100%;
+    border: none;
+  }
+}
