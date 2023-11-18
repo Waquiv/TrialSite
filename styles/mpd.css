@@ -1,0 +1,115 @@
+@import url("./root.css");
+
+.gallery-hero {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../assets/syllabus.png");
+  background-size: 100% 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.gallery-hero > h1 {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+.syllabus-hero {
+  display: flex;
+  background-color: white;
+  width: 100%;
+  padding: 1rem;
+}
+
+.hero-left-container {
+  width: 60%;
+  height: 100%;
+  padding: 0.5rem;
+}
+.hero-right-container {
+  padding: 0.5rem;
+  width: 40%;
+  height: 100%;
+}
+.yellow-text {
+  color: var(--primary-yellow);
+}
+.syllabus-title {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 32px;
+}
+.syllabus-text {
+  font-size: 16px;
+}
+.subjects-container {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+}
+.language {
+  color: #434f69;
+  cursor: pointer;
+}
+
+.active {
+  text-decoration: underline;
+  font-weight: 700;
+}
+.subjects-table {
+  width: 100%;
+  padding: 1rem 0;
+}
+table {
+  width: 100%;
+  border-collapse: collapse; /* To collapse the borders */
+}
+td {
+  padding: 0.2rem;
+  font-weight: 700;
+  width: 50%; /* Set each column to occupy 50% width */
+  padding: 8px; /* Adding padding for better readability */
+  /* text-align: center; */
+}
+tr {
+  width: 50%;
+}
+
+.std-container {
+  width: 100%;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-start;
+}
+
+.btn {
+  width: inherit;
+  background-color: white;
+  border: 1px solid var(--primary-yellow);
+  color: var(--primary-yellow);
+  outline: none;
+  display: inline-block;
+  text-overflow: ellipsis; /* Truncates text with ellipsis if it doesn't fit */
+  overflow: hidden;
+}
+.active-btn {
+  border: 1px solid var(--primary-blue);
+  color: white;
+  outline: none;
+  background-color: var(--primary-blue);
+}
+
+@media screen and (max-width: 900px) {
+  .syllabus-hero {
+    flex-direction: column;
+  }
+  .hero-left-container,
+  .hero-right-container {
+    width: 100%;
+  }
+  .std-container {
+    flex-wrap: wrap;
+  }
+}

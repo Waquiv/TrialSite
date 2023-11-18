@@ -5,6 +5,7 @@
   display: flex;
   height: 60vh;
   height: max-content;
+  padding: 1.5rem 0;
 }
 .footer-left-container {
   width: 60%;
