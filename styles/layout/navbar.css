@@ -8,7 +8,8 @@
   background-color: var(--primary-blue);
   overflow-x: hidden;
   transition: 0.5s;
-  padding-top: 60px;
+  /* padding-top: 60px; */
+  padding-top: 3.7em;
 }
 .navbar {
   display: flex;
@@ -25,16 +26,22 @@
   align-items: center;
   width: 60%;
   color: white;
+  height: 100%;
+}
+.italic {
+  font-size: 0.7em;
 }
 
 .navbar-links > a {
-  font-size: 18px;
+  /* font-size: 18px; */
+  font-size: 1.1em;
 }
 
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  font-size: 18px;
+  /* font-size: 18px; */
+  font-size: 1.1em;
   display: block;
   transition: 0.3s;
   color: #f1f1f1;
@@ -47,13 +54,17 @@
 .sidenav .closebtn {
   position: absolute;
   top: 0;
-  right: 25px;
+  /* right: 25px;
   font-size: 36px;
-  margin-left: 50px;
+  margin-left: 50px; */
+  right: 1.5em;
+  font-size: 2.2em;
+  margin-left: 3.1em;
 }
 .dropdown-content {
   display: none;
-  padding-left: 20px;
+  /* padding-left: 20px; */
+  padding-left: 1.2em;
 }
 
 /* .dropdown:hover .dropdown-content {
@@ -69,10 +80,12 @@
 
 @media screen and (max-height: 450px) {
   .sidenav {
-    padding-top: 15px;
+    /* padding-top: 15px; */
+    padding-top: 1em;
   }
   .sidenav a {
-    font-size: 18px;
+    /* font-size: 18px; */
+    font-size: 1.2em;
   }
 }
 .logo-container-nav {
@@ -81,7 +94,8 @@
 .logo-container-nav > a > img {
   height: 100%;
   aspect-ratio: 1/1;
-  min-width: 90px;
+  /* min-width: 90px; */
+  min-width: 5.6em;
 }
 .scrolled {
   background-color: var(--primary-blue);
@@ -89,10 +103,12 @@
 
 @media screen and (max-width: 870px) {
   .navbar-links {
-    display: none;
+    display: flex;
+    flex-direction: column;
   }
   .sidenav a {
-    font-size: 16px;
+    /* font-size: 16px; */
+    font-size: 1em;
   }
   .btn-container {
     display: flex;
@@ -105,6 +121,12 @@
   }
   .small-link {
     display: block !important;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .navbar-links > a {
+    font-size: 0.7em;
   }
 }
 

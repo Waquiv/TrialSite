@@ -16,7 +16,8 @@
   font-family: "Montserrat", sans-serif;
   color: white;
   font-weight: 700;
-  font-size: 54px;
+  /* font-size: 54px;   */
+  font-size: 3.3em;
 }
 
 .gallery-container {
@@ -47,7 +48,8 @@
 }
 .grid-item > h2 {
   padding: 0 0.5rem;
-  font-size: 18px;
+  /* font-size: 18px; */
+  font-size: 1.2em;
   font-weight: 700;
 }
 

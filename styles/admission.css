@@ -1,7 +1,8 @@
 @import url("./root.css");
 .gallery-hero {
   width: 100%;
-  height: 300px;
+  /* height: 300px; */
+  height: 18.7em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,20 +38,24 @@
 }
 .yellow {
   color: var(--primary-yellow);
-  font-size: 16px;
+  /* font-size: 16px; */
+  font-size: 1em;
   font-weight: 700;
 }
 .admission-container-left > h2 {
   font-weight: 700;
-  font-size: 24px;
+  /* font-size: 24px; */
+  font-size: 1.5em;
 }
 .admission-container-left > h4 {
   font-weight: 700;
-  font-size: 20px;
+  /* font-size: 20px; */
+  font-size: 1.2em;
 }
 .admission-container-left > h5 {
   font-weight: 500;
-  font-size: 18px;
+  /* font-size: 18px; */
+  font-size: 1.1em;
 }
 .admission-container-left > button {
   background-color: transparent;

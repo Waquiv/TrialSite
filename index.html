@@ -43,8 +43,13 @@
         <a href="./gallery.html">Gallery</a>
         <a href="./mpd.html">MPD (Mandatory Public Database)</a>
         <a href="./admission.html">Admissions</a>
-        <a class="a small-link">+91 8525 852 987</a>
-        <a class="a small-link">mujjadidalsefani@gmail.com</a>
+        <div class="dropdown" onclick="toggleDropdown(3)">
+          <a class="a">Contact Us &#9662;</a>
+          <div class="dropdown-content" id="dropdown-3">
+            <a class="a small-link">+91 8525 852 987</a>
+            <a class="a small-link">mujjadidalsefani@gmail.com</a>
+          </div>
+        </div>
       </div>
 
       <div class="navbar" id="navbar">
@@ -115,11 +120,8 @@
         </h3>
       </div>
       <div class="foreground-text">
-        <h1>
-          "Quote <br />
-          Tagline"
-        </h1>
-        <button>Read More</button>
+        <h1>"Knowlegde is light"</h1>
+        <!-- <button>Read More</button> -->
       </div>
     </div>
     <!-- vision and mission -->
@@ -135,7 +137,7 @@
           nihil eveniet natus similique quis corrupti eaque quae! Sit voluptates
           minima sequi totam natus magni debitis accusamus facere odit adipisci!
         </p>
-        <button>Read More</button>
+        <!-- <button>Read More</button> -->
         <div class="arrow-icons-container">
           <div>
             <i class="fa fa-arrow-up active-arrow"></i>
@@ -148,9 +150,9 @@
       </div>
     </div>
     <!-- small section -->
-    <div class="small-section mission-container">
+    <!-- <div class="small-section mission-container">
       <h1>"School Mission and Vision"</h1>
-    </div>
+    </div> -->
     <!-- upcoming events -->
     <div class="upcoming-events-container">
       <div class="img-container">
@@ -183,7 +185,9 @@
           </p>
         </div>
         <p class="upcoming">
-          <i class="fa fa-arrow-right"></i> see all our upcoming events
+          <a href="./news.html">
+            <i class="fa fa-arrow-right"></i> see all our upcoming events
+          </a>
         </p>
       </div>
     </div>
