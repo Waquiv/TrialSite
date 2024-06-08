@@ -54,15 +54,18 @@
 }
 
 .main {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   display: flex;
-  padding: 0.5rem 4.5rem;
+  /* padding: 0.5rem 4.5rem; */
+  padding: 0.5rem;
+  justify-content: center;
+
 }
 .temp {
   border: 1px solid black;
   border-radius: 10px;
-  width: 100%;
+  width: 90%;
   height: 100%;
   display: flex;
 }

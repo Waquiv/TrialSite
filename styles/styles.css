@@ -89,7 +89,7 @@
   color: var(--primary-blue);
   background: white;
   /* padding: 10px; */
-  padding: 0.6em;
+  /* padding: 0.6em; */
   filter: blur(3px);
   position: absolute;
   top: 0;
@@ -100,6 +100,7 @@
   align-items: center;
   justify-content: center;
   padding: 0 4em;
+  box-sizing: border-box;
 }
 .foreground-text {
   color: var(--primary-blue);
@@ -344,6 +345,7 @@
   width: 100%;
   display: flex;
   padding: 3em;
+  box-sizing: border-box;
 }
 .map-container {
   width: 50%;
@@ -494,6 +496,11 @@
     /* font-size: 14px; */
     font-size: 0.8em;
   }
+}
+
+.wrapper{
+  width: 100vw;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 800px) {
