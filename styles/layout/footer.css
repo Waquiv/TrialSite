@@ -7,7 +7,10 @@
   height: max-content;
   padding: 1.5rem 0;
   color: white;
+  position: absolute;
+  /* bottom: -2500px; */
 }
+
 .footer-left-container {
   width: 60%;
   height: 100%;
